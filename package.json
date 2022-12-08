@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,6 +14,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.6.13"
+    "astro": "^1.6.13",
+    "astro-icon": "^0.8.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "open-props": "^1.5.1",
+    "postcss": "^8.4.19",
+    "postcss-jit-props": "^1.0.8"
   }
 }
